@@ -1,11 +1,12 @@
-header,section,footer,aside,nav,article,figure,figcaption{ 
-display:block;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 body{
-  color: #666666;
-  background-color: #f9f8f6;
-  background-image: url(https://image.shutterstock.com/image-photo/dark-brown-wooden-background-high-600w-632775671.jpg);
+  background-color:wheat ;
+  background-image: url(https://image.shutterstock.com/image-photo/white-wood-texture-background-wooden-600w-578660578.jpg);
   background-position: center;
   font-family: Georgia,times,serif;
   line-height: 1.4em;
@@ -16,26 +17,27 @@ body{
   width: 800px;
   margin: 20px auto 20px auto;
   border: 20px solid #000;
-  background-color: #fff;
 }
 
 header{
-  height: 200px;
-  background-image: url(https://image.shutterstock.com/image-photo/different-types-cheese-served-fork-260nw-1807736212.jpg);
+ height: 200px;
+ background-image: url(https://image.freepik.com/free-photo/top-view-business-desk-with-notebook-report-graph-chart-pen-tablet-wooden-table_29110-59.jpg);
 }
-
+ 
 h1{
   text-indent: 20px;
-  width: 940px;
+  width: 500px;
   height: 100px;
-  margin: 0px;
+  margin: 3px;
 }
 
 nav,footer{
   clear: both; 
   color: #fff;
   background-color: #aeaca8;
-  height: 97px;
+  height: 50px;
+  text-align: left;
+
 }
 
 nav ul{
@@ -50,85 +52,27 @@ nav li{
   bottom: 90;
 }
 
+nav li a:hover, nav li a.current{
+  color: black;
+}
 nav li a {
-  color: #fff;
-}
-
-76
-
-section.recipes{
-  float: left;
-  width: 600px;
-  border-right: 1px solid #eee;
-}
-
-
-article{
-  clear: both;
-  overflow: auto;
-  width: 100%;
-}
-
-hgroup{
-  margin-top: 40px;
-}
-
-figure{
-  float: left;
-  width: 290px;
-  height: 220px;
-  padding: 5px;
-  margin: 20px;
-  border: 1px solid #eee;
-}
-
-figcaption{
-  font-size: 90%;
-  text-align: left;
-}
-
-aside{
-  width: 230px;
-  float: left;
-  padding: 0px 0px 0px 20px;
-}
-
-aside section a{
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid #eeee;
-}
-
-aside section a:hover{
-  color: #985d6a;
-  background-color:#efefef;
-}
-
-a{
-  color: #de6581;
-  text-decoration: none;
-}
-
-h1, h2, h3,{
-  font-weight: nomal;
+  color: rgb(131, 50, 50);
 }
 
 h2{
-  margin: 10px 0px 5px 0px;
-  padding: 0px;
+  width: 600px;
+  height: 40px;
+  margin: 10px;
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  color:rgb(84, 172, 172);
+  text-align: center;
 }
 
-h3{
-  margin: 0px 0px 10px 5px;
-  color: #de6581;
-}
-
-aside h2{
-  padding: 30px 0px 10px 0px;
-  color: #de6581;
-}
-
-footer{
+p{
+  color: rgb(0, 13, 128);
   font-size: 20px;
-  padding: 5px 0px 0px 10px;
+  font-family: 'Comic Sans MS';
+  padding: 10px;
 }
+  
